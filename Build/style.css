@@ -1,0 +1,90 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+}
+.stApp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2.8em;
+    color: #4f46e5;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.welcome-banner {
+    background: linear-gradient(90deg, #4f46e5, #a855f7);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border-left: 4px solid #4f46e5;
+    animation: fadeIn 0.5s ease-in;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.stButton>button {
+    background: linear-gradient(45deg, #4f46e5, #a855f7);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    transition: transform 0.2s;
+}
+.stButton>button:hover {
+    transform: scale(1.05);
+}
+.stTextArea textarea, .stTextInput input {
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    padding: 12px;
+}
+.feedback {
+    background-color: #e6f3ff;
+    border-left: 4px solid #4f46e5;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+.status-badge {
+    display: inline-block;
+    background-color: #4f46e5;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.sidebar .stButton>button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 14px;
+    font-size: 1.2em;
+}
+.sidebar h3 {
+    color: #4f46e5;
+    font-size: 1.5em;
+}
+.leaderboard-item {
+    font-size: 1em;
+    padding: 8px 0;
+}
+.leaderboard-item.top-score {
+    font-weight: bold;
+    color: #4f46e5;
+}
+.timer-warning {
+    color: #e11d48;
+    font-weight: bold;
+}
