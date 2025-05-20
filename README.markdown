@@ -30,7 +30,7 @@ This project includes tools to check stored data and optimize performance, addre
 ### Prerequisites
 - **Python**: 3.8+ (verify with `python --version`).
 - **Ollama**: For DeepSeek-R1 LLM (GPU recommended for speed).
-- **OS**: Windows (tested on `C:\Users\Ajay sivakumar\Desktop\RAG`).
+- **OS**: Windows (tested on `C:\Users\<>\Desktop\RAG`).
 
 ### Installation
 1. **Clone or Set Up Project**:
@@ -38,7 +38,7 @@ This project includes tools to check stored data and optimize performance, addre
 
 2. **Create Virtual Environment** (recommended):
    ```bash
-   cd C:\Users\Ajay sivakumar\Desktop\RAG
+   cd C:\Users\<>\Desktop\RAG
    python -m venv venv
    .\venv\Scripts\activate  # On Windows
    ```
@@ -67,7 +67,7 @@ This project includes tools to check stored data and optimize performance, addre
 
 2. **Run the App**:
    ```bash
-   cd C:\Users\Ajay sivakumar\Desktop\RAG
+   cd C:\Users\<>\Desktop\RAG
    streamlit run interview_agent.py
    ```
    - Open `http://localhost:8501` in your browser.
@@ -136,7 +136,7 @@ The app is optimized to address slowness:
 
 ### Database Issues
 - **No Data in `interviews.db`**:
-  - Check permissions in `C:\Users\Ajay sivakumar\Desktop\RAG`.
+  - Check permissions in `C:\Users\<>\Desktop\RAG`.
   - Run `interview_agent.py`, answer a question, then `check_interviews_db.py`.
   - Delete `interviews.db` to recreate.
 - **Slow Writes**:
